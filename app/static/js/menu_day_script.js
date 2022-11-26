@@ -23,4 +23,18 @@ function remove_active_day(){
     })
 }
 
+function menu_id(){
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const menuid =  urlParams.get('menuid')
+    return menuid
+}
+
+function set_menu_planner_link(){
+    var link = document.getElementById("menu-planner-link")
+    li = "/menu/menu-planner?menuid=" + menu_id() + "&wdc=none"
+    link.href = li
+}
+
 expand_current_day()
+set_menu_planner_link()

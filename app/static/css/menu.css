@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 .day{
     transition: ease 0.2s;
@@ -13,6 +13,7 @@
     height:75px;
     background-color: #1E1E1E;
     margin: auto;
+    cursor: pointer;
 }
 
 .day-head{
@@ -37,4 +38,11 @@
 .active-day h2{
     transition: ease 0.2s;
     font-size: 30px;
+}
+
+#menu-nav{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
 }
