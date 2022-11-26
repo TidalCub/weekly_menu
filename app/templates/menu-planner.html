@@ -4,9 +4,10 @@
 {% endblock %} 
 
 {% block body %}
-<div class="container">
-    <h1>Hello</h1> 
-</div>
 
+
+{% for dish in dishes%}
+    <h2>{{dish.DishName}}</h2>
+{% endfor %}
 <script src="{{ url_for('static',filename='js/menu_planner.js') }}" type="text/javascript"></script>
 {% endblock %} 

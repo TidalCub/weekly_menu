@@ -10,5 +10,8 @@ with open("config.json") as config_file:
     
 app = Flask(__name__)
 app.secret_key = config.get("SECRET_KEY")
+app.config['SQLALCHEMY_DATABASE_URI'] = config.get("SQLALCHEMY_DATABASE_URI")
+
+db = SQLAlchemy(app)
 
 from app import routes
