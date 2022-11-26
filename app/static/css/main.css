@@ -1,0 +1,17 @@
+body {
+    background-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.Header{
+    width:100%;
+    padding-left: 5px;
+    padding-TOP: 5PX;
+    padding-bottom: 20px;
+}
+h5{
+    padding-left: 10px;
+}

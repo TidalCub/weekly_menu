@@ -1,0 +1,28 @@
+.Header h5{
+    line-height: 4px;
+}
+.week{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.day{
+    width:90%;
+    height:75px;
+    background-color: #1E1E1E;
+    margin: auto;
+}
+
+.day-head{
+    color: #D9D9D9;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-head h2{
+    font-weight: 700;
+    font-size: 30px;
+}
